@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class DynamoDbExampleApplicationTest {
  public static  Logger logger = org.slf4j.LoggerFactory.getLogger(DynamoDbExampleApplicationTest.class);
     @Test
-    public void contextLoads() {
+    public static void contextLoads() {
         logger.info("Test case executing...");
         assertEquals(true, true);
     }

@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class DynamoDbExampleApplicationTest {
- public static  Logger logger = org.slf4j.LoggerFactory.getLogger(DynamoDbExampleApplicationTest.class);
+ //public static  Logger logger = org.slf4j.LoggerFactory.getLogger(DynamoDbExampleApplicationTest.class);
     @Test
     public void contextLoads() {
         logger.info("Test case executing...");

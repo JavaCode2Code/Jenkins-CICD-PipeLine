@@ -14,7 +14,7 @@ public class DynamoDbExampleApplicationTest {
  public static  Logger logger = org.slf4j.LoggerFactory.getLogger(DynamoDbExampleApplicationTest.class);
     @Test
    public static void contextLoads() {
-        logger.info("Test case executed successfully");
+        logger.info("Test case 2 executed successfully");
     assertEquals(true, true);
     }
 }
